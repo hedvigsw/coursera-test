@@ -1,0 +1,43 @@
+* {
+font-family: 'Handlee', cursive bold;
+box-sizing: border-box;
+}
+section {
+	height: 1000px;
+	margin: 5px 5px;
+	overflow: hidden;	
+}
+#main-content{
+	background-color: #798393;
+
+}
+p {
+	position: relative;
+	right: 10px;
+}
+#header-nav {
+background-color: #798393;
+border-radius: 0;
+border: 2px solid black;
+border-right: 0;
+border-left: 0;
+}
+.navbar-header {
+	font-size: 24px;
+	float: left;
+	
+}	
+#nav-list {
+  margin-top: 10px;
+  
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
